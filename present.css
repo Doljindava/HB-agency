@@ -1,0 +1,87 @@
+body{
+    background-color: #FFF5E4;
+    
+                                                
+}
+
+.header {
+    overflow: hidden;
+    background-color: #FF9494;
+    padding: 20px 10px;
+    font-family: 'Public Pixel', sans-serif;
+                                                
+  }
+  
+  
+  .header a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+ 
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  .header a:hover {
+    background-color: #D885A3;
+    color: black;
+  }
+  
+ 
+  .header a.active {
+    background-color: #655D8A;
+    color: white;
+  }
+  
+  
+  .header-right {
+    float: right;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+.photo-2 {
+    justify-content: start ;
+   width: 1000px;
+   height: 500px;
+    background-color: #D885A3;
+    
+    font-family: 'Sports Jersey', sans-serif;
+    border-radius: 0.5%;
+}
+.photo{
+    display: flex;
+    margin: 5px;
+}
+.photo a{
+    text-decoration: none;
+    background-color: #FF9494;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.footer{
+    display: flex;
+}

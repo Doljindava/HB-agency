@@ -1,0 +1,23 @@
+body{
+    background-image: url(./space.png);
+}
+.header{
+    color: white;
+    font-family: 'Public Pixel', sans-serif;
+                                                
+}
+.babe{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+.weapon-1{
+    padding: 20px;
+}
+.weapon-2{
+    padding: 20px;
+}
+.weapon-3{
+    padding: 20px;
+}
